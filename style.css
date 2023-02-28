@@ -1,0 +1,31 @@
+.pagination{
+    position:fixed;
+    bottom:20px;
+    left:35%;
+}
+
+.pagination a{
+    color:black;
+    float:left;
+    padding:8px 16px;
+    text-decoration:none;
+    transition: background-color .3s;
+}
+
+.pagination a.active{
+    background-color: rgb(5, 103, 201);
+    color:white;
+}
+.pagination a:hover:not(.active){
+    background-color: #ddd;
+}
+
+/* body div{
+    position:relative;
+    top:20px;
+} */
+
+.cnt{
+    position:relative;
+    top:10px;
+}
